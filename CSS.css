@@ -1,0 +1,177 @@
+body {
+  background-image: url(../JoseMariaParras/img/fondo.jpg);
+}
+header {
+  background-color: #223a5e;
+  border: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: grey;
+  color: white;
+  vertical-align: middle;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  text-align: justify;
+ 
+}
+#TextoCabecera {
+  text-align: center;
+}
+header::first-letter {
+  font-size: 1.5em;
+}
+.menu {
+    float: left;
+  width: 15%;
+  border: 2px;
+  border: none;
+  background-color: #223a5e;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
+  text-align: justify;
+}
+.menu p
+{
+    text-align: justify;
+    text-align: center;
+}
+.numsIndice {
+  text-decoration: none;
+  border: none;
+  color: #f6d155;
+  text-align: justify;
+}
+.lista
+{
+    list-style: decimal;
+}
+.subLista
+{
+    list-style: decimal;
+}
+a:hover.numsIndice {
+  border-bottom-color: #f6d155;
+  text-decoration: underline;
+  text-align: justify;
+}
+.Titulo {
+    
+  color: brown;
+  border-bottom: 2px solid brown;
+  text-align: justify;
+  font-weight: bold;
+}
+#seccion1
+{
+    margin-left: 20%; 
+    margin-right: 15%;
+}
+#Imagen1
+{
+    display: flex;
+    justify-content: center;
+
+}
+img
+{   
+    margin-top: 2em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+}
+.legend
+{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+#Imagen2
+{
+    display: flex;
+    justify-content: center;
+}
+.Subtitulo
+{
+    color: brown;
+  text-align: justify;
+  font-style: italic;
+}
+.tabla
+{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 10px;
+  border-spacing: 0;
+  border-collapse: collapse;
+   
+}
+td{
+  width: 30% 50%;
+   padding: 10px;
+  text-align: right; 
+  
+  
+}
+.principal
+{
+  color: white;
+  background-color: #223A5E;
+}
+.par
+{
+  background-color: #D49F75;
+}
+.impar
+{
+  background-color: #C48F65;
+}
+#pImg
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#bloqueImg
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    width: 20%;
+
+}
+#Imagen3 
+{
+    
+   margin: 10%;
+    width: 100%;
+    float: left;
+}
+#Imagen4 
+{
+    
+  margin: 10%;
+    width: 100%;
+    float: center;
+}
+#Imagen5 
+{
+   
+  margin: 10%;
+    width: 100%;
+    float: right;
+}
+.footer
+{
+    background-color: #223A5E;
+    color: white;
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: grey;
+    margin-top: 1 em;
+    margin-bottom: 1em;
+    vertical-align: middle;
+    text-align: center;
+}
